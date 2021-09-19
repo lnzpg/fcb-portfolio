@@ -1,32 +1,59 @@
 <html>
 	<head>
 		<title>Neil Gopez | Web Developer Portfolio</title>
+		<!-- Google Fonts -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap" rel="stylesheet">
+		<!-- Bootsrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+		<!-- Custom CSS -->
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<div class="container">
-			<section id="landing">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  		</button>
+
+ 		 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    			<ul class="navbar-nav mx-auto">
+      				<li class="nav-item">
+     			 		<a href="#landing" class="nav-link"> Home </a>
+		     		</li>
+		      		<li class="nav-item">
+      		 			<a href="#gallery" class="nav-link"> Gallery </a>
+		      		</li>
+		    	</ul>
+		  	</div>
+		</nav>
+		<div class="container-fluid">
+			<section class="jumbotron text-center mt-3" id="landing">
 				<h1>Full Stack Web Developer</h1>
 				<p>Hi! My name is Neil and I love building things from scratch</p>
 				<img src="images/Neil-Formal.jpg">
 			</section>
-			<section id="gallery">
-				<h2>Languages I Speak</h2>
+			<section class="text-center bg-dark" id="gallery">
+				<div class="tools">
+					<h2>Languages I Speak</h2>
 				<ul>
 					<li>HTML</li>
 					<li>CSS</li>
 				</ul>
-				<h2>Tools I Use</h2>
+				</div>
+				<div class="tools">
+					<h2>Tools I Use</h2>
 				<ul>
 					<li>Git Bash Terminal</li>
 					<li>Sublime Text</li>
 					<li>Git Hub</li>
 					<li>Google Chrome</li>
 				</ul>
+				</div>
 			</section>
 		</div>
+		<!-- Bootsrap -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 	</body>
 </html>
